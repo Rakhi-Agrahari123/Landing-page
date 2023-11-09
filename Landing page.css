@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(27, 186, 238);
+}
+
+header {
+    background-color: #333;
+    color: #fefefe;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c0d2d2;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('259438121963.jpg');
+    background-size: cover;
+    text-align: center;
+    color: rgb(20, 20, 126);
+    padding: 100px 0;
+}
+
+.btn {
+    background-color: #e23131;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration:none ;
+}
+
+#features, #about, #contact {
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
